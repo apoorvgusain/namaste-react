@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom";
 const reactHeading = React.createElement("h1", {}, "Welcome To React Js");
 const reactRoot = ReactDOM.createRoot(document.getElementById("root-three"));
 reactRoot.render(reactHeading);
