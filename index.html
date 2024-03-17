@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Introduction To React</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Welcome To HTML!!</h1>
+    </div>
+    <div id="root-two"></div>
+    <div id="root-three"></div>
+    <div id="root-four"></div>
+  </body>
+  <script type="text/javascript">
+    const heading = document.createElement("h1");
+    heading.innerText = "Welcome To Javscript!!!";
+    const root = document.getElementById("root-two");
+    root.appendChild(heading);
+  </script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+  <script src="App.js"></script>
+</html>
